@@ -12,7 +12,7 @@ Enable your WooCommerce store to accept Bitcoin with BitPay!
 
 == Description ==
 
-[youtube http://youtu.be/JP_I9zNRpEo]
+[youtube http://www.youtube.com/watch?v=JP_I9zNRpEo]
 
 Bitcoin is a powerful new peer-to-peer platform for the next generation of financial technology. The decentralized nature of the Bitcoin network allows for a highly resilient value transfer infrastructure, and this allows merchants to gain greater profits.
 
