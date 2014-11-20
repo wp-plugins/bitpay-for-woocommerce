@@ -6,7 +6,7 @@
     Author:      bitpay
     Author URI:  https://bitpay.com
 
-    Version: 	       2.0.1
+    Version: 	       2.0.2
     License:           Copyright 2011-2014 BitPay Inc., MIT License
     License URI:       https://github.com/bitpay/woocommerce-plugin/blob/master/LICENSE
     GitHub Plugin URI: https://github.com/bitpay/woocommerce-plugin
@@ -101,8 +101,8 @@ function woocommerce_bitpay_init()
                         'description' => __( 'This controls the title which the user sees during checkout.', 'woocommerce' ),
                         'default'     => __( 'Bitcoin', 'bitpay' ),
                     ),
-                    'message' => array(
-                        'title' => __( 'Customer Message', 'woothemes' ),
+                    'description' => array(
+                        'title' => __( 'Customer Message', 'woocommerce' ),
                         'type' => 'textarea',
                         'description' => __( 'Message to explain how the customer will be paying for the purchase.', 'bitpay' ),
                         'default' => 'You will be redirected to bitpay.com to complete your purchase.'

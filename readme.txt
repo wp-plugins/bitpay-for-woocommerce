@@ -57,5 +57,11 @@ Follow the [directions found on the plugin's GitHub page](https://github.com/bit
 
 == Changelog ==
 
-= 2.0 =
-* Implements BitPay's new cryptographically secure authentication
+= 2.0.2 - 2014-11-20 =
+* Fix - Payment method description/message display on checkout
+
+= 2.0.1 - 2014-11-19 =
+* Tweak - Changed plugin activation to fail on presence of old plugin instead of attempting to delete old plugin and also detect GMP requirement.
+
+= 2.0.0 - 2014-11-18 =
+* Feature - Implements BitPay's new cryptographically secure authentication.
