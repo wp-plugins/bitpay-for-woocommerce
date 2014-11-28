@@ -24,7 +24,7 @@ This is because there are little to no fees for transferring Bitcoins from one p
 * WordPress 3.9 or greater
 * WooCommerce 2.2 or greater
 * PHP version 5.4 or greater
-* GMP extension for PHP
+* GMP *or* BCMath extension for PHP
 
 = Automatic Installation =
 
@@ -46,6 +46,14 @@ Any < 2.0 versions of the BitPay payment gateway for WooCommerce will need to be
 
 Follow the [directions found on the plugin's GitHub page](https://github.com/bitpay/woocommerce-plugin#configuration).
 
+= Do I have to have GMP installed? =
+
+The requirement of the GMP extension for PHP has been removed, but it is still **highly** recommended that you install it for better performance.
+
+= How do I install GMP =
+
+Follow the [directions found on the plugin's GitHub page](https://github.com/bitpay/woocommerce-plugin#gmp-nstallation).
+
 == Screenshots ==
 
 1. When selected, this is how the payment option will appear
@@ -55,6 +63,9 @@ Follow the [directions found on the plugin's GitHub page](https://github.com/bit
 5. The settings screen for this plugin
 
 == Changelog ==
+
+= 2.1.0 - 2014-11-28 =
+* Tweak - Uses newer BitPay Library that no longer solely requires GMP, but can use BCMath as an alternative
 
 = 2.0.2 - 2014-11-20 =
 * Fix - Payment method description/message display on checkout
