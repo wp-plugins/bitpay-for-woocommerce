@@ -64,6 +64,11 @@ Follow the [directions found on the plugin's GitHub page](https://github.com/bit
 
 == Changelog ==
 
+= Unreleased =
+
+= 2.2.5 - 2015-04-02 =
+* Fixed - Bundled BitPay PHP Client for releases now includes entire client
+
 = 2.2.4 - 2015-03-09 =
 * Added - Curl requirement check during activation
 * Added - Notification and Redirect URL settings for advanced users
