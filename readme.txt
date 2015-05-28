@@ -25,6 +25,8 @@ This is because there are little to no fees for transferring Bitcoins from one p
 * WooCommerce 2.2 or greater
 * PHP version 5.4 or greater
 * GMP *or* BCMath extension for PHP
+* mcrypt
+* OpenSSL Must be compiled with PHP
 
 = Automatic Installation =
 
@@ -63,6 +65,17 @@ Follow the [directions found on the plugin's GitHub page](https://github.com/bit
 5. The settings screen for this plugin
 
 == Changelog ==
+
+= Unreleased =
+
+= 2.2.7 - 2015-05-28 =
+* Fixed - Security issue with ajax calls
+
+= 2.2.6 - 2015-04-20 =
+* Added - New order status setting which also fixes issues with new orders being set to On-Hold and triggering emails
+
+= 2.2.5 - 2015-04-02 =
+* Fixed - Bundled BitPay PHP Client for releases now includes entire client
 
 = 2.2.4 - 2015-03-09 =
 * Added - Curl requirement check during activation
